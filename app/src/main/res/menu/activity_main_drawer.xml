@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/menu_customer" />
+        <item
+            android:id="@+id/nav_cleaners"
+            android:icon="@drawable/ic_baseline_cleaning_services_24"
+            android:title="@string/menu_cleaners" />
+        <item
+            android:id="@+id/nav_Exit"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/menu_exit" />
+        <item
+            android:id="@+id/nav_LogOut"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+        <item
+            android:id="@+id/nav_Rate"
+            android:icon="@drawable/ic_review"
+            android:title="App Feedback" />
+    </group>
+</menu>

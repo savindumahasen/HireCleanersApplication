@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    tools:context=".ui.Customer.FeedbackFragment" >
+
+    <TextView
+        android:id="@+id/textFeedBackTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="FeedBack"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imgReview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cleaningimage" />
+
+    <TextView
+        android:id="@+id/textFeedBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#F8F7F7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:numStars="5"
+            android:progressBackgroundTint="@color/white"
+            android:progressTint="#FFEB3B"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>
